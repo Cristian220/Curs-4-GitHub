@@ -3,9 +3,9 @@ def add_Book():
 def list_Books():
     print("List books option")
 def update_Book():
-    print("Update book option")
+    print("Update a book option")
 def share_Book():
-    print("Share book option")
+    print("Share a book option")
 
 
 
@@ -20,7 +20,7 @@ print("1 : Add a book")
 print("2 : List books")
 print("3 : Update book")
 print("4 : Share book")
-option = input("Select one option -> ")
+option = int(input("Select one option -> "))
 if option == 1:
     add_Book()
 elif option == 2:
